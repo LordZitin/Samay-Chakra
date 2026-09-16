@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center 66dp Safe Zone (from x=21..87, y=21..87) -->
+    
+    <!-- Outer Celestial Ring Glow -->
+    <path
+        android:pathData="M54,32 A22,22 0 1,1 53.9,32 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#7E57C2" />
+        
+    <!-- Golden Divine Rays -->
+    <path
+        android:pathData="M54,23 L54,27 M54,77 L54,81 M27,54 L31,54 M77,54 L81,54 M35,35 L38,38 M70,70 L73,73 M70,35 L67,38 M35,70 L38,67"
+        android:strokeWidth="2"
+        android:strokeColor="#FFD54F"
+        android:strokeLineCap="round" />
+
+    <!-- Isometric Realm Base Platform -->
+    <path
+        android:pathData="M54,58 L78,68 L54,78 L30,68 Z"
+        android:fillColor="#311B92"
+        android:strokeWidth="1.5"
+        android:strokeColor="#673AB7" />
+    <path
+        android:pathData="M30,68 L54,78 L54,82 L30,72 Z"
+        android:fillColor="#1A0D4A" />
+    <path
+        android:pathData="M54,78 L78,68 L78,72 L54,82 Z"
+        android:fillColor="#241461" />
+
+    <!-- Golden Crown of the Showoff King / Divine Intervention -->
+    <path
+        android:pathData="M38,52 L42,38 L48,46 L54,35 L60,46 L66,38 L70,52 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="35"
+                android:endX="70"
+                android:endY="52"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFE082" />
+                <item android:offset="0.5" android:color="#FFCA28" />
+                <item android:offset="1.0" android:color="#FFB300" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M37,52 L71,52 L70,56 L38,56 Z"
+        android:fillColor="#FFA000" />
+
+    <!-- Crown Jewels (Emerald Witch, Ruby Demon, Sapphire King) -->
+    <!-- Center Ruby -->
+    <path
+        android:pathData="M54,48m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0"
+        android:fillColor="#E53935" />
+    <!-- Left Emerald -->
+    <path
+        android:pathData="M46,49m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0"
+        android:fillColor="#00E676" />
+    <!-- Right Sapphire -->
+    <path
+        android:pathData="M62,49m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0"
+        android:fillColor="#2979FF" />
+
+    <!-- Floating Divine Sparkles -->
+    <path
+        android:pathData="M54,30 L55,33 L58,34 L55,35 L54,38 L53,35 L50,34 L53,33 Z"
+        android:fillColor="#FFF9C4" />
+</vector>

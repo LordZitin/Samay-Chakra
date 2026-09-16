@@ -1,0 +1,6 @@
+{
+  "name": "Divine Intervention 3D",
+  "description": "God simulation game with interactive 3D map, miniature characters, and divine event controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
